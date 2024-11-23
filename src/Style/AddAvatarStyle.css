@@ -1,0 +1,51 @@
+.add-avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .add-avatar-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .add-avatar-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-avatar-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-avatar-form .preview {
+    width: 100px; /* Установите желаемую ширину */
+    height: 100px; /* Установите желаемую высоту */
+    border-radius: 50%; /* Сделать изображение круглым */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    object-fit: cover; /* Обеспечить правильное отображение изображения */
+  }
+  
+  .add-avatar-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-avatar-form button:hover {
+    background-color: #0056b3;
+  }

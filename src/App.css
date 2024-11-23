@@ -1,0 +1,65 @@
+.slide {
+  text-align: center;
+  padding: 20px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide h3 {
+  margin: 10px 0;
+}
+
+.slide p {
+  margin: 10px 0;
+}
+
+.slide button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slide button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    padding: 10px;
+  }
+
+  .slide h3 {
+    font-size: 1.2em;
+  }
+
+  .slide p {
+    font-size: 1em;
+  }
+
+  .slide button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide h3 {
+    font-size: 1em;
+  }
+
+  .slide p {
+    font-size: 0.9em;
+  }
+
+  .slide button {
+    padding: 6px 12px;
+    font-size: 0.8em;
+  }
+}

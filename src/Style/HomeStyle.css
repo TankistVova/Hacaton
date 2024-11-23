@@ -1,0 +1,91 @@
+.styled-button {
+    background-color: #4CAF50; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  
+  .styled-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .preview-button {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 5px;
+    margin: 4px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .preview-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .preview {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .remove-button {
+    background-color: #f44336; /* Красный */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  
+  .remove-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+  }
+  
+  .canvas-container {
+    position: relative;
+    border: 2px dashed #000; /* Черный контур */
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .office-list {
+  margin-top: 20px;
+}
+
+.office-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.office-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.office-preview {
+  width: 100px;
+  height: 75px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
